@@ -4,11 +4,13 @@ export interface CardProps {
   icon: React.ComponentType<{ className?: string }>
 }
 
-export interface ResourceItem {
-  type: "Article" | "Video"
+export type ResourceItem = {
+  type: "Article" | "Video" | "Guide"
   time: string
   title: string
+  description?: string
 }
+
 
 export interface StatisticItem {
   number: string
