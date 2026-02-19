@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/app/components/ui/card"
-import { Badge } from "@/app/components/ui/badge"
+import { Badge } from "@/components/ui/badge"
 import { Navbar } from "@/app/components/navbar"
 import { Footer } from "@/app/components/footer"
 import { Phone, MapPin, Clock, AlertTriangle, Heart, Zap, Activity, Ambulance, Brain } from "lucide-react"
