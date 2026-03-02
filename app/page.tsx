@@ -10,6 +10,7 @@ import SuccessStories from "@/components/sections/SuccessStories"
 import CorporateWellness from "@/components/sections/CorporateWellness"
 import ResourcesSection from "@/components/sections/ResourcesSection"
 import FinalCTA from "@/components/sections/FinalCTA"
+import HomeDoctorsCarousel from "@/components/sections/HomeDoctorsCarousel"
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <AnnouncementBanner />
       <HeroSection />
       <WhyChooseMedicare />
+      <HomeDoctorsCarousel />
       <ConsultationServices />
       <HealthcareSpecialties />
       <AppFeatures />
