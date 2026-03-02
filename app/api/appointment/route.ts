@@ -30,7 +30,7 @@ export async function POST(req: Request) {
     if (!googleResponse.ok)
       throw new Error("Failed to save to Google Sheets")
 
-    // Send Email
+    // Send Email changes
     await resend.emails.send({
       from: "MediCare <onboarding@resend.dev>",
       to: email,
