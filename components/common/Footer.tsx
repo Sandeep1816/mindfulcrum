@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -10,9 +12,13 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-white">
-              MediCare
-            </h3>
+           <Image
+  src="/images/Mindfulcrum_Banner.png"
+  alt="Mindfulcrum Logo"
+  width={180}
+  height={60}
+  className="mb-6 object-contain"
+/>
             <p className="text-primary-foreground/70 text-sm leading-relaxed">
               Your trusted healthcare partner delivering world-class medical 
               services and personalized wellness solutions.

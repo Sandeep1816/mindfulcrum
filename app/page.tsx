@@ -20,13 +20,13 @@ export default function HomePage() {
       <HeroSection />
       <WhyChooseMedicare />
       <HomeDoctorsCarousel />
-      <ConsultationServices />
-      <HealthcareSpecialties />
-      <AppFeatures />
-      <SuccessStories />
-      <CorporateWellness />
-      <ResourcesSection />
-      <FinalCTA />
+      {/* <ConsultationServices /> */}
+      {/* <HealthcareSpecialties /> */}
+      {/* <AppFeatures /> */}
+      {/* <SuccessStories /> */}
+      {/* <CorporateWellness /> */}
+      {/* <ResourcesSection /> */}
+      {/* <FinalCTA /> */}
       <Footer />
     </div>
   )

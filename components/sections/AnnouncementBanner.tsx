@@ -26,7 +26,7 @@ export default function AnnouncementBanner() {
 
               <p className="text-xs sm:text-sm font-semibold text-primary line-clamp-2">
                 Telemedicine services now available in{" "}
-                <span className="text-accent">Delhi NCR</span>
+                <span className="text-accent">Bengaluru</span>
               </p>
 
               <p className="text-xs text-muted-foreground mt-1 hidden sm:block">

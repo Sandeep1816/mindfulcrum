@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 export default function Navbar() {
   return (
@@ -10,16 +11,15 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
 
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">
-                M
-              </span>
-            </div>
-            <span className="hidden sm:inline font-bold text-primary text-lg">
-              MediCare
-            </span>
-          </div>
+       <div className="flex items-center">
+  <Image
+    src="/images/Mindfulcrum_Banner.png"
+    alt="MediCare Logo"
+    width={180}
+    height={60}
+    className="object-contain"
+  />
+</div>
 
           {/* Menu */}
           <div className="hidden md:flex items-center gap-8">
